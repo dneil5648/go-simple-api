@@ -2,9 +2,10 @@ package main
 
 import (
 	"encoding/json"
-	"go-simple-api/apiserver"
 	"net/http"
 	"time"
+
+	"github.com/dneil5648/go-simple-api/apiserver"
 )
 
 func handleHealthRoute(w http.ResponseWriter, r *http.Request) {
